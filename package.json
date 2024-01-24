@@ -1,0 +1,38 @@
+{
+  "name": "@asasvirtuais/react",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@chakra-ui/react-context": "^2.1.0",
+    "@chakra-ui/storybook-addon": "^5.1.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@storybook/react": "^7.6.6",
+    "framer-motion": "^10.16.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/addon-onboarding": "1.0.10",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/react-vite": "7.6.6",
+    "@storybook/testing-library": "^0.2.2",
+    "@types/react": "18.2.45",
+    "@types/react-dom": "18.2.18",
+    "storybook": "^7.6.6",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
